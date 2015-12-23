@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ClockIn</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ClockInTitle">ClockInTitle</string>
+    <string name="PreferenceLocation">ClockInLocation</string>
+    <string name="IsFirstInstall">IsFirstInstall</string>
+    <string-array name="next_action_button_labels">
+        <item>Next</item>
+        <item>Next</item>
+        <item>Review</item>
+        <item>Finish</item>
+    </string-array>
+    <string name="title_activity_display_clock_in_info">DisplayClockInInfoActivity</string>
+
+    <!-- Navigation Drawer items -->
+    <string-array name="navigation_drawer_items">
+        <item name="dashboard_drawer_item_one">Dashboard</item>
+        <item name="dashboard_drawer_item_two">Map</item>
+        <item name="dashboard_drawer_item_three">History</item>
+        <item name="dashboard_drawer_item_four">Settings</item>
+    </string-array>
+</resources>

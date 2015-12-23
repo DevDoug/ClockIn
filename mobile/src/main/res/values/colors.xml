@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary theme colors -->
+    <color name="dark_primary_color">#5D4037</color>
+    <color name="primary_color">#795548</color>
+    <color name="light_primary_color">#D7CCC8</color>
+    <color name="text_icons_color">#FFFFFF</color>
+    <color name="primary_text_color">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="divider_color">#B6B6B6</color>
+
+    <!-- -->
+
+</resources>
