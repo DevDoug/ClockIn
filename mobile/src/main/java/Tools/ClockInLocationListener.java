@@ -10,6 +10,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.example.douglas.clockin.R;
+
 import java.io.IOException;
 import java.util.List;
 
@@ -34,7 +36,7 @@ public class ClockInLocationListener implements LocationListener {
         String locationProvider = LocationManager.NETWORK_PROVIDER;
         if(location != null){
             if(location == mLocationManager.getLastKnownLocation(locationProvider)){ //Testing set it to work location
-                Toast.makeText(mContext, "Clocked In !", Toast.LENGTH_LONG).show();
+                Toast.makeText(mContext, mContext.getResources().getString(R.string.clocked_in_message), Toast.LENGTH_LONG).show();
             }
         }
     }

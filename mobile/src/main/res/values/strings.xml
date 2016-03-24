@@ -5,6 +5,9 @@
     <string name="ClockInTitle">ClockInTitle</string>
     <string name="PreferenceLocation">ClockInLocation</string>
     <string name="IsFirstInstall">IsFirstInstall</string>
+    <string name="clocked_in_message">Clocked In !</string>
+
+
     <string-array name="next_action_button_labels">
         <item>Next</item>
         <item>Next</item>

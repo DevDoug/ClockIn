@@ -59,10 +59,7 @@ public class MainActivity extends Activity {
         //Get preferences
         mPreferences = getSharedPreferences("com.example.douglas.clockin", MODE_PRIVATE);
         mIsFirstClockIn = mPreferences.getBoolean(getString(R.string.IsFirstInstall), false);
-
     }
-
-
 
     @Override
     protected void onStart() {
