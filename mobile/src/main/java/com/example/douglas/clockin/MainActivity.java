@@ -9,6 +9,7 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.AppCompatActivity;
 import android.text.format.Time;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -36,7 +37,7 @@ import java.util.Vector;
 import adapters.DashboardDrawerAdapter;
 
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
     SharedPreferences mPreferences;
     Boolean mIsFirstClockIn; //holds the users clock in location
